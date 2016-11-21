@@ -1,0 +1,17 @@
+name: Question_Blocks
+main: me.boops.questionblocks.Main
+version: 0.0.1
+commands:
+  questionblock:
+      description: The root command for question block
+      usage: /questionblock
+  qb:
+    description: The root command for question block
+    usage: /qb
+permissions:
+  questionblocks.admin:
+    description: Allows you to create Question Blocks
+    default: op
+  questionblocks.use:
+    description: Allows you to use Question Blocks
+    default: true
